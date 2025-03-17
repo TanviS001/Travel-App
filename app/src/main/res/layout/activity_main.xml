@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_marginTop="22dp">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wanna Visit French Polynesia?"
+        android:textColor="@color/white"
+        android:background="#082542"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp">
+
+        <LinearLayout
+            android:id="@+id/scroll_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="0dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French Polynesia"
+                android:textColor="@color/white"
+                android:background="#082542"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="40sp"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Location: "
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="#346697"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/location_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French Polynesia, South Pacific Ocean"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✨ Description:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="#346697"/>
+
+            <TextView
+                android:id="@+id/description_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French Polynesia is a tropical paradise known for its crystal-clear lagoons, lush mountains, coral reefs, and luxury resorts. It consists of 118 islands, with famous ones like Tahiti, Bora Bora, and Moorea. The region offers world-class snorkeling, diving, and romantic getaways.n"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌟 Top Attractions:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="#346697"/>
+
+            <TextView
+                android:id="@+id/top_info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Bora Bora Lagoon – The ultimate honeymoon destination with iconic overwater villas."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/top_info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Moorea’s Magic Mountain – A scenic hike with breathtaking views of the ocean."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/top_info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Fakarava Atoll – A UNESCO-listed coral atoll, perfect for diving."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/top_info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Matira Beach – One of the most beautiful white-sand beaches in the world."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/top_info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Tetiaroa Atoll – A private island retreat once owned by Marlon Brando."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="☀️ Weather Info:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="#346697"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/best_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚵‍♀️ Best Time to Visit:"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/best_time_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="May - October (Dry Season)"
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌡️ Temperature: "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/temp_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="24°C - 30°C"
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💧 Humidity: "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/temperature_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High but pleasant due to ocean breezes."
+                android:textSize="20dp"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#346697"
+                android:textColor="@color/white"
+                android:text="🎒 Travel Tips:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tip1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Carry reef-safe sunscreen to protect coral reefs."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/tip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Local currency is CFP Franc (XPF), but some places accept USD."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/tip3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Try Poisson Cru – A Tahitian dish of raw tuna in coconut milk."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/tip4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Public transport is limited, so renting a bike or boat is ideal."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+            <TextView
+                android:id="@+id/tip5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ French is the official language, but English is understood in tourist areas."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="#346697"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
